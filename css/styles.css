@@ -57,6 +57,11 @@ body{
 
 .hero__link{
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
     color: #800080;
     font-size: 18px;
 }
