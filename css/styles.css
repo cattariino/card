@@ -5,12 +5,12 @@
 }
 
 body{
-    padding: 3em;
+    padding: 7em;
 }
 
 .hero{
     width: 900px;
-
+    margin: 0 auto;
 
 }
 
@@ -21,6 +21,8 @@ body{
     background: #800080; 
     background: -webkit-linear-gradient(to right, #800080, #ffc0cb); 
     background: linear-gradient(to right, #800080, #ffc0cb); 
+    z-index: 10;
+    position: relative;
 
     
 }
@@ -36,11 +38,32 @@ body{
 }
 
 .hero__text{
-
+    box-shadow: -3px 0px 139px 29px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -3px 0px 139px 29px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px 0px 139px 29px rgba(0,0,0,0.75);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+    gap: 1.5em;
+    position: relative;
+    top:-400px;
+    transition: 1s;
+    z-index: 1;
 }
+
+
 
 .hero__icon{
     width: 30%;
     color: #800080;
+    
+}
+
+.hero__text:hover{
+    cursor: pointer;
+    top: 0px;
     
 }
