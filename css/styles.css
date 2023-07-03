@@ -78,3 +78,24 @@ body{
     top: 0px;
     
 }
+
+@media screen and (max-width:500px) {
+    .hero{
+        width: initial;
+    }
+        
+
+    .hero__title{
+        font-size: 1em;
+    }
+
+    .hero__text{
+        top:-150px;
+        gap: .5em;
+        padding: 1em;
+    }
+
+    .hero__icon{
+        width: 13%;
+    }
+}
